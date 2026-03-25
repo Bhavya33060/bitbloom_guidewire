@@ -1,0 +1,57 @@
+.navbar {
+  width: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #131921;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* LEFT */
+.nav-left h2 {
+  cursor: pointer;
+  color: #ff9900;
+}
+
+/* CENTER */
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-center input {
+  width: 60%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* RIGHT */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-item {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.nav-item strong {
+  font-size: 14px;
+}
+
+/* BUTTON */
+.login-btn {
+  background: #ff9900;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}

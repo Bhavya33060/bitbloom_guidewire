@@ -1,0 +1,103 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  background: #f5f7fb;
+}
+
+/* LEFT */
+.login-left {
+  flex: 1;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.login-left h1 {
+  font-size: 42px;
+  color: #ff9900;
+}
+
+.login-left p {
+  margin-top: 10px;
+}
+
+/* RIGHT */
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.login-card {
+  width: 400px;
+  padding: 40px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* INPUT */
+.login-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.login-card input:focus {
+  border-color: #ff9900;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255,153,0,0.3);
+}
+
+/* PASSWORD */
+.password-field {
+  position: relative;
+}
+
+.password-field span {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+
+/* BUTTON */
+.login-card button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #ff9900, #ff7a00);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  box-shadow: 0 5px 15px rgba(255,153,0,0.4);
+}
+
+/* ERROR */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* LINK */
+.link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.link span {
+  color: #1e3c72;
+  cursor: pointer;
+  font-weight: bold;
+}
